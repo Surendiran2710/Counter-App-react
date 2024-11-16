@@ -1,0 +1,91 @@
+/* Body */
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+.container-counter {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-attachment: fixed;
+  background-image: url(./image/c.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.counter {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  border-color: black;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  text-align: center;
+}
+
+.counter-name {
+  font-weight: bolder;
+  color: black;
+  font-size: 60px;
+  margin-bottom: 70px;
+
+}
+
+.counter-name_1 {
+  font-weight: bolder;
+  font-size: xx-large;
+  border: black solid 3px;
+  display: inline;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.counter-button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.counter-button_1 {
+  font-weight: bolder;
+  font-size: larger;
+  padding: 15px;
+  background-color: rgb(36, 201, 36);
+  color: white;
+  border: whitesmoke solid 3px;
+  border-radius: 10px;
+cursor: pointer;
+}
+
+.counter-button_2 {
+  font-weight: bolder;
+  font-size: larger;
+  padding: 15px;
+  background-color: rgb(62, 73, 62);
+  color: white;
+  border: whitesmoke solid 3px;
+  border-radius: 10px;
+cursor: pointer;
+}
+
+.counter-reset {
+  font-weight: bolder;
+  font-size: larger;
+  padding: 15px;
+  background-color: rgb(155, 0, 0);
+  color: white;
+  border: whitesmoke solid 3px;
+  border-radius: 10px;
+cursor: pointer;
+}
